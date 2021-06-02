@@ -1,3 +1,5 @@
+<!-- Broken code on line 16 -->
+
 <template>
   <div id="app" :class="typeof weather.main != 'undefined' && weather.main.temp > 16 ? 'warm' : ''">
     <main>
