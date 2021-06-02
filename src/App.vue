@@ -1,4 +1,6 @@
-<!-- Broken code on line 16 test test 123 -->
+<!-- Broken code on line 16 need to check-->
+
+<!-- different vue version is most possible error -->
 
 <template>
   <div id="app" :class="typeof weather.main != 'undefined' && weather.main.temp > 16 ? 'warm' : ''">
